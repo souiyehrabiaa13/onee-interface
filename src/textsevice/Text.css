@@ -1,0 +1,14 @@
+.phbn{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.phbn .ph1{
+    color: #025592;
+    font-size: 55px;
+    text-align: center;
+}
+.phbn .ph3{
+    color: rgba(27, 27, 27, 0.94);
+    text-align: center;
+}

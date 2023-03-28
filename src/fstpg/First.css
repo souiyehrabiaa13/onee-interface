@@ -1,0 +1,44 @@
+.bner{
+    padding-left: 3%;
+    margin-top: 23VH;
+    padding-right: 3%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27VH;
+}
+
+
+.bner .textbanner h1{
+    color: #025592;
+    font-family: cursive;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bner .textbanner p{
+    font-family: cursive;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+.bner .textbanner .btn{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bner .textbanner button{
+    font-family: cursive;
+    padding:5px 5px 5px 5px;
+    color: white;
+    background-color:#025592;
+    border-radius: 5px;
+    border: none;
+}
+
+.bner .textbanner button:hover{
+    color:#025592 ;
+    background-color:white;
+    border: 1px solid #025592;
+}

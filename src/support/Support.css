@@ -1,0 +1,58 @@
+.support{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.support .bnrimg {
+    width: 60%;
+}
+.support .bnrimg .supp_img{
+    width: 100%;
+}
+.support .bnrinput{
+    width: 40%;
+    margin-left: 60px;
+}
+.support .bnrinput h1{
+    font-size:55px ;
+    padding: 10PX;
+    color: #025592;
+}
+.support .bnrinput label{
+    font-size:20px ;
+    padding: 8PX;
+    color: #025592;
+}
+.support .bnrinput input{
+    font-size:12px ;
+    padding: 10PX;
+    margin: 10PX;
+}
+
+.support .bnrinput textarea{
+    font-size:12px;
+    padding: 10PX;
+    margin: 10PX;
+}
+
+.support .bnrinput input:focus{
+    border: 1px solid #025592;
+}
+
+.support .bnrinput textarea:focus{
+    border: 1px solid #025592;
+}
+.support .bnrinput .btn{
+    padding: 6px;
+    color: white;
+    background-color: #025592;
+    border-radius: 6PX;
+}
+.support .bnrinput .btn:hover{
+
+    color: #025592;
+    background-color: white;
+    border:1px solid #025592;
+    border-radius: 6PX;
+}

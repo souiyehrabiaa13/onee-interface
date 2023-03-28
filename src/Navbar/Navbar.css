@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+*{
+    scroll-behavior: smooth;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 66px;
+}
+nav .container .logo{
+    width: 200PX;
+    margin-right: 800PX;
+}
+nav .container .BNELC{
+    width: 300PX;
+    height: 60PX;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    z-index: 999;
+    position: absolute;
+    margin-left: 50px;
+}
+nav .nav-links li{
+    list-style-type: none;
+    z-index: 999;
+}
+nav .nav-links li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.847);
+    z-index: 999;
+}
